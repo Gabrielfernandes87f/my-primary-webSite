@@ -3,7 +3,7 @@
 
 esse é meu primeiro site, vou fazer ele responsivo, por enquanto apenas o front-end. a implementação javascript ainda preciso aprender muita coisa.
 
-
+```html
 img {
     width: 2.5em;
     height: 2.5em;
@@ -136,3 +136,4 @@ input {
     height: 2em;
     margin-bottom: -0.3em;
 }
+```
