@@ -1,0 +1,173 @@
+
+# formulário.html
+
+usei o mesmo cabeçalho
+
+ainda nao fiz o css pra ele. trabalho pra outro dia
+
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Fernandes">
+    <meta name="description" content="estudos de programação">
+    <meta name="keywords" content="programação, Gabriel, fernandes, programção web, sites de programção, menipulando a dom, js, javascript">
+    <link rel="stylesheet" href="/css/style-home.css">
+    <link rel="shortcut icon" href="/image/lente_50mm.png" type="image/x-icon">   <!-- icone do site -->
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <header>
+        <p class="paraLogo">Formulário</p>
+
+        <nav class="navbar">
+           <a href="#"> Home </a>
+           <a href="#"> Contact</a>
+           <a href="/html/login.html"> Login </a>
+        </nav>
+    </header>
+
+    <main>
+
+    <form class="formularioPrincipal" action="for-login" autocomplete="on" aria-required="true" method="POST">
+        <label for="name">Nome:</label>
+        <input type="name" id="name" class="name" autofocus
+        required 
+        placeholder="digite seu nome completo"
+        size="30"
+        minlength="10"
+        maxlength="50"
+        pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"
+        title="digite seu nome completo com minimo 10 letras"
+        >
+        <label for="contato">Contato:</label>
+        <input type="numeric" id="contato" class="contato"
+        required 
+        placeholder="seu numero com dd"
+        size="8"
+        minlength="9"
+        maxlength="15"
+        inputmode="numeric"
+        pattern="[0-9]+$"
+        title="apenas números"
+        >
+        <label for="whats">Whatsapp:</label>
+        <input type="numeric" id="whats" class="whats"
+        required 
+        placeholder="seu whats"
+        size="8"
+        minlength="10"
+        maxlength="15"
+        inputmode="numeric"
+        pattern="[0-9]+$"
+        title="apenas números"
+        >
+        <label for="endereco">Endereço:</label>
+        <input type="name"id="endereco" class="endereco"
+        required 
+        placeholder="digite seu nome completo"
+        size="30"
+        minlength="10"
+        maxlength="50"
+        title="Digite seu endereço"
+        pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"
+        >
+        <label for="numero">Numero:</label>
+        <input type="numeric" id="numero"
+        placeholder="123"
+        size="6"
+        pattern="[0-9]+$"
+        >
+        
+        <label for="estados" class="estados">Uf:</label>
+         <input
+           class="estados"
+           list="datalist1"
+           id="estados"
+           placeholder="Paraiba..."
+           size="16"
+         />
+         <datalist id="datalist1">
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="Amapá">Amapá</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Distrito Federal">Distrito Federal</option>
+            <option value="Espírito Santo">Espírito Santo</option>
+            <option value="Goiás">Goiás</option>
+            <option value="Maranhão">Maranhão</option>
+            <option value="Mato Grosso">Mato Grosso</option>
+            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Pará">Pará</option>
+            <option value="Paraíba">Paraíba</option>
+            <option value="Paraná">Paraná</option>
+            <option value="Pernambuco">Pernambuco</option>
+            <option value="Piauí">Piauí</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+            <option value="Rondônia">Rondônia</option>
+            <option value="Roraima">Roraima</option>
+            <option value="Santa Catarina">Santa Catarina</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Sergipe">Sergipe</option>
+            <option value="Tocantins">Tocantins</option>
+         </datalist>
+         
+         <label for="cidade">Cidade:</label>
+         <input type="name" id="cidade" class="senha-repeat"
+         required 
+         placeholder="qual cidade mora"
+         size="11"
+         minlength="4"
+         maxlength="10"
+         >
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" class="email"
+        required 
+        placeholder="Digite seu melhor e-mail"
+        size="30"
+        minlength="10"
+        maxlength="30"
+        >
+        <label for="nova-senha">Criar senha:</label>
+        <input type="password" id="nova-senha" class="nova-senha"
+        required 
+        placeholder="Digite sua senha"
+        size="10"
+        minlength="4"
+        maxlength="8"
+        >
+        <label for="senha-repeat">senha:</label>
+        <input type="password" id="senha-repeat" class="senha-repeat"
+        required 
+        placeholder="Digite novamente"
+        size="11"
+        minlength="4"
+        maxlength="10"
+        >
+        <button type="submit ">Enviar</button>
+
+
+    </form>   
+    
+</main>
+
+    <script src="/script/javascript.js"></script>
+    <script src="/node/Controller.js"></script>
+
+</body>
+</html>
+
+
+´´´
