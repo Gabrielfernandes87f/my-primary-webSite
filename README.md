@@ -13,7 +13,7 @@ uma imagem que eu nao consegui outro svg ou link pra usar foi a imagem principal
 # html/login.html
 
 O Html tem algumas implementações que eu ainda nao estou usando.. ex: do src Controller.js.
-esse link do shortcut icon linha 31 usei essa imagem apenas com um texte
+esse link do shortcut icon linha 31 usei essa imagem apenas como um texte
 
 ```html
 
