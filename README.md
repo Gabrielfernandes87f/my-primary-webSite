@@ -39,7 +39,7 @@ esse link do shortcut icon linha 31 usei essa imagem apenas como um texte
 
         <nav class="navbar">
            <a href="#"> Home </a>
-           <a href="#"> Contato </a>
+           <a href="#"> contact </a>
            <a href="/html/login.html"> Login </a>
         </nav>
 
