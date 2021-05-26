@@ -154,7 +154,8 @@ esse link do shortcut icon linha 31 usei essa imagem apenas como um texte
 
 }
 body {
-    background-color: #2595be95;
+    background-color: blueviolet;
+    
 }
 .logo1{
     width: 8em;
