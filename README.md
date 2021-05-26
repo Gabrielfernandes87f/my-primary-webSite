@@ -151,6 +151,7 @@ ainda nao fiz o css pra ele. trabalho pra outro dia
 
 
 ```html
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -315,6 +316,8 @@ ainda nao fiz o css pra ele. trabalho pra outro dia
 
 
 ´´´
+
+
 
 # css/style-home
 
